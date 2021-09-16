@@ -45,8 +45,7 @@ Homepage
 
 #### Screenshot(s) van de tweede pagina (small screen):
 Quizpage
-<img src="images/quizpage1.jpeg" width="375px" alt="quizpage">
-<img src="images/quizpage2.jpeg" width="375px" alt="The Harry and Ginny quiz">
+<img src="images/inlogpage.png" width="375px" alt="inlogpage">
  
 </details>
 
@@ -60,7 +59,7 @@ Quizpage
 <summary>uitwerken na afloop 2e werkgroep</summary>
 
 ### de hele pagina: 
-<img src="images/dummy-plaatje.jpg" width="375px" alt="breakdown van de hele pagina">
+<img src="images/schetsbreakdown.jpg" width="375px" alt="breakdown van de hele pagina">
 
 ### dynamisch deel (bijv menu): 
 <img src="images/dummy-plaatje.jpg" width="375px" alt="breakdown van een dynamisch deel">
