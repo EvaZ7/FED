@@ -80,6 +80,12 @@ Quizpage
 
 ### Stand van zaken
 hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+Ik heb alle html voor mijn website al zo goed als af. Aan CSS moet ik nog beginnen. Het enige wat niet is
+gelukt is de buttons voor sociale media toe te voegen dit zijn namelijk path's.
+<img src="images/probleem1path.png" width="375px" alt="code van path en element">
+Ook moet ik nog een animatie invoegen.
+<video src="imagaes/">
+Tot slot moet ik van mijn NAV nog een hamburgermenu maken, maar dit ga ik eerst nog zelf uitzoeken.
 
 
 ### Agenda voor meeting
@@ -95,9 +101,9 @@ samen met je groepje opstellen
 ### Verslag van meeting
 hier na afloop snel de uitkomsten van de meeting vastleggen
 
-- punt 1
-- punt 2
-- nog een punt
+- Gebruik comments in je code. Die had ik nog niet.
+- Van de socialbuttons op mijn website svg of abeeldingen opzoeken geen path gebruiken.
+- De animatie op mijn website hoeft niet, als ik tijd over heb is het wel leuk.
 - ...
 
 </details>
@@ -113,7 +119,10 @@ hier na afloop snel de uitkomsten van de meeting vastleggen
 
 ### Stand van zaken
 hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+Het maken van mijn hamburger menu ging goed, deze staat er in. Ook de header is af en werkt naar behoren.
 
+Deze week had ik een probleem met de grootte van mijn website. Nadat ik mijn hamburger-menu had gemaakt en ik weer terugging naar mijn homepage, was mijn website heel erg ver ingezoomd. Dit heb ik uiteindelijk opgelost door mijn afbeeldingen kleiner te maken, deze vielen namelijk buiten de html. Ik heb hierdoor ook de header moeten resizen.
+<img src="images/probleemzoom.png" width="375px" alt="ingezoomde deel van mijn pagina">
 
 ### Agenda voor meeting
 samen met je groepje opstellen
@@ -234,8 +243,10 @@ hier screenshot(s) van je eindresultaat
 
 Nb. Wees specifiek ('css-tricks' als bron is bijv. niet specifiek genoeg).
 
-1. bron 1
-2. bron 2
+1. Croak, M. (2020, 30 november). How to Change the Color of an Image With CSS - Better Programming. Better Programming. https://betterprogramming.pub/how-to-change-the-color-of-an-image-with-css-83664f6527ac
+2. Fonts: 1. https://www.dafontfree.net/bluu-next-bold/f167978.htm
+          2. https://www.cdnfonts.com/sofia-pro.font
+
 3. ...
 
 </details>

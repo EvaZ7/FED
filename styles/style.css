@@ -4,13 +4,167 @@
   box-sizing:border-box;  
 }
 :root{
-  --backgroundcolor: rgb(14, 16, 20);
+  --backgroundcolor: rgb(16, 20, 27);
   --fontcolorh1: rgb(247, 241, 238);
+  --fontcolorrest: white;
+  --buttoncolor: rgb(107, 99, 181);
+  --fontsofia: 'Sofia Pro', sans-serif;
+  --fontbluu: 'Bluu Next', sans-serif;
+                                                
+                                                                                    
 }
 html{
-  background-color: var(--backgroundcolor);
+  margin: 0;
 }
+body{
+  position: relative;
+  background-color: var(--backgroundcolor);
+
+  margin: 0;
+
+  /*width: 100%;
+  height: 100%;
+  padding: 0;*/
+
+}
+
+
+/*------------------
+-------HEADER-------
+--------------------*/
+header{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+
+  align-items: center;
+  width: 100%;
+  padding: 24px 0px 10px;
+
+  z-index: 2;
+
+  background-color: rgba(16,20,27,.8);
+}
+main{
+  display: grid;
+}
+footer img{/*project resize!!!*/
+  width: 3em;
+}
+nav ul{ /*Hamburger menu*/
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+
+  background-color: var(--backgroundcolor);
+  text-decoration: none;
+
+  margin: 0;
+  
+  /*visibility button*/
+  transform: translateX(100%);
+}
+nav ul.open { /*openen hamburger menu*/
+  transform: translateX(0%);
+
+}
+nav li{
+  list-style-type: none;
+  margin-bottom: 0;
+  margin-top: 0;
+  padding: 15px 15px 15px 32px;
+
+  font-size: 8em;
+}
+nav img{ /*hamburger menu knop (streepjes)*/
+/*!!!!!wekt dit?*/
+  height: 2em;
+  padding-left: 1em;
+
+}
+nav a{
+  text-decoration: none;
+}
+header>img{ /*wizardingworld logo top*/
+  justify-self: center;
+  height: 3em;
+  max-height: 5em;/*!!!!!wekt dit?*/
+  max-width: auto;
+
+}
+header>a{ /*login button*/
+  text-decoration: none;
+  justify-self: center;
+
+  padding: 0.6em 1.5em;
+  border-radius: 0.3em;
+  font-size: 0.6em;
+  font-family: var(--fontsofia);
+
+  background-color: var(--buttoncolor);
+}
+
+
+section:first-of-type{/*EERSTE content*/
+  position: relative;
+}
+main article img{/*Project RESIZE!!!*/
+  width: 3em;
+
+}
+main li img{/*Project RESIZE!!!*/
+  width: 3em;
+
+}
+section:first-of-type h1{ /*eerste h1*/
+  font-family: var(--fontbluu);
+  font-weight: 700;
+  line-height: 1.1;
+  font-size: 40px;
+
+  text-align: center;
+}
+section:first-of-type img:first-of-type{/*hagrid image*/
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+
+  z-index: -1;
+
+  filter: opacity(0.6);
+}
+section:first-of-type img:last-of-type{/*fantastic beasts logo en hp logo*/
+  margin-top: 10em;
+  width: 100%;
+}
+
+
 h1{
   color: var(--fontcolorh1);
 }
+h2{
+  color: var(--fontcolorrest);
+
+}
+h3{
+  color: var(--fontcolorrest);
+
+}
+h4{
+  color: var(--fontcolorrest);
+
+}
+a{
+  color: var(--fontcolorrest);
+
+}
+
 
