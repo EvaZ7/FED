@@ -155,6 +155,10 @@ hier na afloop snel de uitkomsten van de meeting vastleggen
 
 ### Bevindingen
 Lijst met je bevindingen die in de test naar voren kwamen:
+- Het contrast van mijn website is goed. Alles is leesbaar doordat bijna alles ook zwart op wit is.
+- Als je door een gele bril kijkt wordt de kleur paars grijs. Alles is nogsteeds goed leesbaar.
+- Alles in caps worrdt uitgespelt met een screenreader. 
+- Er staan losse semicons in mijn website blijkbaar.
 
 #### Titel eerste bevinding
 Hier korte omschrijving (met indien nodig een afbeelding)
