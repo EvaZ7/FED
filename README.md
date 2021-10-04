@@ -160,6 +160,7 @@ Lijst met je bevindingen die in de test naar voren kwamen:
 - Alles in caps worrdt uitgespelt met een screenreader. 
 - Er staan losse semicons in mijn website blijkbaar.
 
+
 #### Titel eerste bevinding
 Hier korte omschrijving (met indien nodig een afbeelding)
 
@@ -197,7 +198,6 @@ Hier een omschrijving van hoe het opgelost kan worden (met indien nodig een afbe
 ### Stand van zaken
 hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
 
-
 ### Agenda voor meeting
 samen met je groepje opstellen
 
@@ -229,7 +229,7 @@ hier na afloop snel de uitkomsten van de meeting vastleggen
 
 ### Stand van zaken
 hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
-
+Ik zat te twijfelen over hoe ik mijn form zou inrichten in verband met de toegangkelijkheid hiervan. Of een screenreader ze wel juist zo voorlezen. Ik heb dankzij Watson, L. (2016) ervoor gekozen om toch mijn form van een legend en fieldset te voorzien.
 ### Screenshot(s)
 
 hier screenshot(s) van je eindresultaat
@@ -247,10 +247,11 @@ hier screenshot(s) van je eindresultaat
 
 Nb. Wees specifiek ('css-tricks' als bron is bijv. niet specifiek genoeg).
 
-1. Croak, M. (2020, 30 november). How to Change the Color of an Image With CSS - Better Programming. Better Programming. https://betterprogramming.pub/how-to-change-the-color-of-an-image-with-css-83664f6527ac
+1. Croak, M. (2020, 30 november). How to Change the Color of an Image With CSS - Better Programming. Better Programming. https://betterprogramming.pubhow-to-change-the-color-of-an-image-with-css-83664f6527ac
 2. Fonts: 1. https://www.dafontfree.net/bluu-next-bold/f167978.htm
           2. https://www.cdnfonts.com/sofia-pro.font
+          3. https://use.typekit.net/est4vhd.css
 
-3. ...
+3. Watson, L. (2016, 22 juli). Using the fieldset and legend elements. Accessibility in Government. https://accessibility.blog.gov.uk/2016/07/22/using-the-fieldset-and-legend-elements/
 
 </details>

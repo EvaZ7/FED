@@ -3,30 +3,42 @@
 	
 <head>
 	<meta charset="UTF-8">
-	<meta name="author" content="jouw naam">
+	<meta name="author" content="Eva Zaadnoordijk">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	
-	<title>LOG IN TO YOUR ACCOUNT</title>
+	<title>Log in to your account</title>
 	
 	<link href="styles/style.css" rel="stylesheet">
 	<link rel="icon" type="image" href="images/faviconw.png">
+    <link href="https://fonts.cdnfonts.com/css/sofia-pro" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.typekit.net/est4vhd.css">
 </head>
 
-<body>
+<body class="login">
 
 <header>
-    <a href="index.html">HOME</a>
+    <a href="index.html">Home</a>
 </header>
 
 <main>
-    <img src="images/harrypotterfanclub.png">
-    <h5>LOG IN TO YOUR ACCOUNT</h5>
-    <form>
+    <img src="images/harrypotterfanclub.png" alt="Harry Potter fanclub logo">
 
+    <form>
+        <fieldset>
+            <legend>Log in to your account</legend>
+
+            <label for="email">Email address</label>
+            <input type="email" name="email" id="email" pattern=".+@hva.nl" required>
+
+            <label for="password">Password</label>
+            <input type="password" name="password" id="password" min="6" required>
+        </fieldset>
+        <a href="#">Forgot your password?</a>
+
+        <input type="submit" value="Continue" href="#">
     </form>
     <p>
-        Not yet a member?
-        <a>Join Fan Club</a>
+        Not yet a member?<a href="#">Join Fan Club</a>
     </p>
 
 </main>
