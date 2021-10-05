@@ -13,7 +13,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 ## Jij
 
 <details open>
-<summary>uitwerken voor kick-off werkgroep</summary>
+<summary>Wie ben ik en wat ga ik doen.</summary>
 
 ### Auteur:
 Eva Zaadnoordijk
@@ -33,7 +33,7 @@ Helemaal responsive
 ## Je website
 
 <details open>
-<summary>uitwerken voor kick-off werkgroep</summary>
+<summary>voor kick-off werkgroep</summary>
 
 ### Je opdracht:
 Ik ga de website van https://www.wizardingworld.com/ namaken.
@@ -44,7 +44,7 @@ Homepage
 <img src="images/homepage2.jpeg" width="375px" alt="homepagecontent">
 
 #### Screenshot(s) van de tweede pagina (small screen):
-Quizpage
+Inlogpage
 <img src="images/inlogpage.png" width="375px" alt="inlogpage">
  
 </details>
@@ -56,7 +56,7 @@ Quizpage
 ## Breakdownschets (week 1)
 
 <details>
-<summary>uitwerken na afloop 2e werkgroep</summary>
+<summary>na afloop 2e werkgroep</summary>
 
 ### de hele pagina: 
 <img src="images/schetsbreakdown.jpg" width="375px" alt="breakdown van de hele pagina">
@@ -76,7 +76,7 @@ Quizpage
 ## Voortgang 1 (week 2)
 
 <details>
-<summary>uitwerken voor 1e voortgang</summary>
+<summary>voor 1e voortgang</summary>
 
 ### Stand van zaken
 hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
@@ -103,7 +103,7 @@ Wat moet er anders...
 ## Voortgang 2 (week 3)
 
 <details>
-<summary>uitwerken voor 2e voortgang</summary>
+<summary>voor 2e voortgang</summary>
 
 ### Stand van zaken
 hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
@@ -129,7 +129,7 @@ Wat moet er anders...
 ## Toegankelijkheidstest (week 4)
 
 <details>
-<summary>uitwerken na test in 4e voortgang</summary>
+<summary>na test in 4e voortgang</summary>
 
 ### Bevindingen
 Lijst met je bevindingen die in de test naar voren kwamen:
@@ -164,7 +164,7 @@ Ik ben nog eens goed gaan kijken naar mijn html en ben er achter gekomen dat ik 
 ## Voortgang 3 (week 4)
 
 <details>
-<summary>uitwerken voor 3e voortgang</summary>
+<summary>voor 3e voortgang</summary>
 
 ### Stand van zaken
 Het lukte mij niet om de afbeelding boven aan de pagina goed te sizen. Ik wil graag dat de afbeelding altijd in de gehele breedte van het scherm zichtbaar is. Maar als ik dat doe dan is afbeelding geheel vervormt op desktop. Ik heb dit geprobeerd op te lossen "met overflow-y" maar dit lukte niet.
@@ -185,7 +185,7 @@ Wat moet er anders...
 ## Eindgesprek (week 5)
 
 <details>
-<summary>uitwerken voor eindgesprek</summary>
+<summary>voor eindgesprek</summary>
 
 ### Stand van zaken
 hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
@@ -193,12 +193,11 @@ Ik zat te twijfelen over hoe ik mijn form zou inrichten in verband met de toegan
 
 Ik krijg de "view all features" knop niet onderaan in de section door middel van grid. Uiteindelijk heb ik dit wel kunnen oplossen door het element in mijn css anders aan te spreken.
 ### Screenshot(s)
-
-hier screenshot(s) van je eindresultaat
+Het eindresultaat!!!
 
 </details>
 <img src="images/finalmobile.png" width="375px" alt="eindresultaat op mobiel">
-<img src="images/desktop.png" width="375px" alt="eindresultaat op destop">
+<img src="images/finaldesktop.png" width="375px" alt="eindresultaat op destop">
 <img src="images/finalmenu.png" width="375px" alt="eindresultaat van het menu">
 
 
