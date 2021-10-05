@@ -87,24 +87,12 @@ Ook moet ik nog een animatie invoegen.
 <video src="imagaes/">
 Tot slot moet ik van mijn NAV nog een hamburgermenu maken, maar dit ga ik eerst nog zelf uitzoeken.
 
-
-### Agenda voor meeting
-samen met je groepje opstellen
-
-| student 1      | student 2          | student 3    | student 4        |
-| ---            | ---                | ---          | ---              |
-| dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-| en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-| ...            | ...                | ...          | ...              |
-
-
 ### Verslag van meeting
-hier na afloop snel de uitkomsten van de meeting vastleggen
+Wat moet er anders...
 
 - Gebruik comments in je code. Die had ik nog niet.
 - Van de socialbuttons op mijn website svg of abeeldingen opzoeken geen path gebruiken.
 - De animatie op mijn website hoeft niet, als ik tijd over heb is het wel leuk.
-- ...
 
 </details>
 
@@ -124,23 +112,13 @@ Het maken van mijn hamburger menu ging goed, deze staat er in. Ook de header is 
 Deze week had ik een probleem met de grootte van mijn website. Nadat ik mijn hamburger-menu had gemaakt en ik weer terugging naar mijn homepage, was mijn website heel erg ver ingezoomd. Dit heb ik uiteindelijk opgelost door mijn afbeeldingen kleiner te maken, deze vielen namelijk buiten de html. Ik heb hierdoor ook de header moeten resizen.
 <img src="images/probleemzoom.png" width="375px" alt="ingezoomde deel van mijn pagina">
 
-### Agenda voor meeting
-samen met je groepje opstellen
-
-| student 1      | student 2          | student 3    | student 4        |
-| ---            | ---                | ---          | ---              |
-| dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-| en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-| ...            | ...                | ...          | ...              |
-
-
 ### Verslag van meeting
-hier na afloop snel de uitkomsten van de meeting vastleggen
+Wat moet er anders...
 
-- punt 1
-- punt 2
-- nog een punt
-- ...
+- De "h" aanpassen op mijn website. Ik heb namelijk meerdere h1 en dat mag niet, ook komen er h4 voor mijn h2 en dat kan niet.
+- Mijn lettertypes laden niet in als ik mijn site op github zet dus maak ik van "http" een "https".
+- Ik gebruik in mijn site zowel pixels als em voor grootte. Hier ga ik 1 van de 2 van maken, dit staat wat netter.
+- Om mijn links als echte links te laten gedragen voeg ik daar aan een "href="#"" toe.
 
 </details>
 
@@ -151,38 +129,31 @@ hier na afloop snel de uitkomsten van de meeting vastleggen
 ## Toegankelijkheidstest (week 4)
 
 <details>
-<summary>uitwerken na test in 8e voortgang</summary>
+<summary>uitwerken na test in 4e voortgang</summary>
 
 ### Bevindingen
 Lijst met je bevindingen die in de test naar voren kwamen:
-- Het contrast van mijn website is goed. Alles is leesbaar doordat bijna alles ook zwart op wit is.
-- Als je door een gele bril kijkt wordt de kleur paars grijs. Alles is nogsteeds goed leesbaar.
-- Alles in caps worrdt uitgespelt met een screenreader. 
-- Er staan losse semicons in mijn website blijkbaar.
+- Het contrast van mijn website is goed. Alles is leesbaar doordat bijna alles ook zwart op wit is. Dit heb ik kunnen checken met de contrast "checker tool" deze hgeeft een groen vinkje als deze juist is.
+- Als je door een gele bril kijkt wordt de kleur paars dus grijs. Alles is nog steeds goed leesbaar.
+- Alles in caps worrdt uitgespeld met een screenreader. 
+- Er staan losse opsommingstekens in mijn website blijkbaar.
+- Voor mensen met motorieke problemen is mijn website ook prima bruikbaar door de grote knoppen.
 
 
-#### Titel eerste bevinding
-Hier korte omschrijving (met indien nodig een afbeelding)
+#### Caps
+##### Korte omschrijving
+Toen ik een screenreader over mijn website haalde, ben ik er achter gekomen dat alle headings en tekst die ik met all caps had geschreven, deze letter voor letter werden uitgespeld. Voor blinde mensen kan dit voor veel verwarring zorgen.
 
-Hier een omschrijving van hoe het opgelost kan worden (met indien nodig een afbeelding)
-
-
-#### Titel tweede bevinding. 
-Hier korte omschrijving (met indien nodig een afbeelding)
-
-Hier een omschrijving van hoe het opgelost kan worden (met indien nodig een afbeelding)
+##### Oplossing
+De oplossing die ik hiervoor gevonden heb is om alle heading die in caps waren geschreven weer terug te zetten naar normale tekst. Om in css vervolgens deze een text-transform: uppercase; te geven. 
 
 
-#### Titel volgende bevinding. 
-Hier korte omschrijving (met indien nodig een afbeelding)
+#### Losse opsommingstekens
+##### Korte omschrijving
+Toen ik een screenreader over mijn website haalde ben ik er ook achter gekomen dat er losse opsommingstekens op mijn website stonden. Deze waren zwart en door mijn donkere achtergrond-kleur had ik ze in eerste instantie niet gezien.
 
-Hier een omschrijving van hoe het opgelost kan worden (met indien nodig een afbeelding)
-
-
-#### Titel nog een bevinding. 
-Hier korte omschrijving (met indien nodig een afbeelding)
-
-Hier een omschrijving van hoe het opgelost kan worden (met indien nodig een afbeelding)
+##### Oplossing
+Ik ben nog eens goed gaan kijken naar mijn html en ben er achter gekomen dat ik deze inderdaad hier met een doel had neergezet, namelijk om knoppen neer te zetten voor de afbeeldingsslider. Ik heb deze ul uiteindelijk verwijderd.
 
 </details>
 
@@ -196,25 +167,14 @@ Hier een omschrijving van hoe het opgelost kan worden (met indien nodig een afbe
 <summary>uitwerken voor 3e voortgang</summary>
 
 ### Stand van zaken
-hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
-
-### Agenda voor meeting
-samen met je groepje opstellen
-
-| student 1      | student 2          | student 3    | student 4        |
-| ---            | ---                | ---          | ---              |
-| dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-| en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-| ...            | ...                | ...          | ...              |
-
+Het lukte mij niet om de afbeelding boven aan de pagina goed te sizen. Ik wil graag dat de afbeelding altijd in de gehele breedte van het scherm zichtbaar is. Maar als ik dat doe dan is afbeelding geheel vervormt op desktop. Ik heb dit geprobeerd op te lossen "met overflow-y" maar dit lukte niet.
 
 ### Verslag van meeting
-hier na afloop snel de uitkomsten van de meeting vastleggen
+Wat moet er anders...
 
-- punt 1
-- punt 2
-- nog een punt
-- ...
+- Alles ziet er goed uit, zorg ervoor dat je je 2e pagina optijd af hebt.
+- Werk je procesverslag bij
+- Oplossing voor plaatje: "object-fit: cover/contain".
 
 </details>
 
@@ -230,6 +190,8 @@ hier na afloop snel de uitkomsten van de meeting vastleggen
 ### Stand van zaken
 hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
 Ik zat te twijfelen over hoe ik mijn form zou inrichten in verband met de toegangkelijkheid hiervan. Of een screenreader ze wel juist zo voorlezen. Ik heb dankzij Watson, L. (2016) ervoor gekozen om toch mijn form van een legend en fieldset te voorzien.
+
+Ik krijg de "view all features" knop niet onderaan in de section door middel van grid. Uiteindelijk heb ik dit wel kunnen oplossen door het element in mijn css anders aan te spreken.
 ### Screenshot(s)
 
 hier screenshot(s) van je eindresultaat
@@ -243,7 +205,7 @@ hier screenshot(s) van je eindresultaat
 ## Bronnenlijst
 
 <details open>
-<summary>continu bijhouden terwijl je werkt</summary>
+<summary>De bronnen die ik gebruikt (mij hebben geolpen) tijden het maken van mijn website</summary>
 
 Nb. Wees specifiek ('css-tricks' als bron is bijv. niet specifiek genoeg).
 
@@ -253,5 +215,6 @@ Nb. Wees specifiek ('css-tricks' als bron is bijv. niet specifiek genoeg).
           3. https://use.typekit.net/est4vhd.css
 
 3. Watson, L. (2016, 22 juli). Using the fieldset and legend elements. Accessibility in Government. https://accessibility.blog.gov.uk/2016/07/22/using-the-fieldset-and-legend-elements/
+4. Afbeeldingen: Wizarding World. (z.d.). Wizarding World: The Official Home of Harry Potter. Wizarding World: The Official Home of Harry Potter. Geraadpleegd op 5 oktober 2021, van https://www.wizardingworld.com/
 
 </details>
