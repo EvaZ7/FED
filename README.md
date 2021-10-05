@@ -197,7 +197,9 @@ Ik krijg de "view all features" knop niet onderaan in de section door middel van
 hier screenshot(s) van je eindresultaat
 
 </details>
-
+<img src="images/finalmobile.png" width="375px" alt="eindresultaat op mobiel">
+<img src="images/desktop.png" width="375px" alt="eindresultaat op destop">
+<img src="images/finalmenu.png" width="375px" alt="eindresultaat van het menu">
 
 
 
