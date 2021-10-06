@@ -1,7 +1,7 @@
 // JavaScript Document
-var hamburgerButton = document.querySelector("nav img");
+var hamburgerButton = document.querySelector("nav>a");
 var nav = document.querySelector("nav ul");
-var kruisButton = document.querySelector("nav ul img");
+var kruisButton = document.querySelector("nav li:first-of-type a");
 
 
 hamburgerButton.addEventListener("click", function() {

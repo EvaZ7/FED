@@ -599,6 +599,12 @@ header>a:focus, main section:first-of-type a:focus, section:nth-of-type(3) artic
   border-width: 0.3em;
   border-color: var(--fontcolorrest);
 }
+nav ul li:first-of-type a:focus{
+  border-style: solid;
+  border-width: 0.2em;
+  border-color: white;
+  background: none;
+}
 body.login fieldset input:focus{/*fieldsets*/
   outline: none;
   border-style: solid;
